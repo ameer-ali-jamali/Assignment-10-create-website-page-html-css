@@ -1,0 +1,17 @@
+.box {
+  background-color: black;
+  position: absolute;
+  width: 99%;
+  height: 18%;
+}
+p {
+  color: whitesmoke;
+  font-size: 61px;
+
+  font-size: xxx-large;
+
+  text-align: center;
+  padding-left: -70px;
+  margin-left: -4%;
+  margin-top: 12px;
+}
