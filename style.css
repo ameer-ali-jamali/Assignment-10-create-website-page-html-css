@@ -1,17 +1,44 @@
 .box {
-  background-color: black;
+  background-color: #191919;
   position: absolute;
   width: 99%;
   height: 18%;
 }
 p {
-  color: whitesmoke;
-  font-size: 61px;
+    color: #ffffff;
+    font-size: 35px;
+  font-weight: bolder;
+    text-align: center;
+    padding-left: -70px;
+    margin-left: -4%;
+    margin-top: 4px;
+}
+nav{
+    
+    position: absolute;
+    background-color: white;
+    width: 82%;
+    height: 9%;
+    text-align: center;
+    top: 12%;
+    left: 8%;
+    border-style: -118px;
+ 
+}
+span{
+color:#f89f02;    
+}
+button{
+    display: inline;
+    margin: 42px;
+    font-size: 14px;
+}
+body{
+    background-color: #f9f9f9;
+}
+img{
 
-  font-size: xxx-large;
+}
+#img-box{
 
-  text-align: center;
-  padding-left: -70px;
-  margin-left: -4%;
-  margin-top: 12px;
 }
