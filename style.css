@@ -2,80 +2,94 @@
     background-color: #191919;
     position: absolute;
     width: 100%;
-    height: 101px;
+    height: 94px;
     margin-left: -8px;
+    top: 0px;
 }
-@font-face  {
-    font-family: "myMuli" ;
-    src: url('./fonts/Mulish-ExtraBold.ttf');
+
+@font-face {
+  font-family: "myMuli";
+  src: url("./fonts/Mulish-ExtraBold.ttf");
 }
-.logo{
-    position: absolute;
-    width: 358px;
-    height: 70px;
-    left: 8%;
-    top: -162px;
-    margin-left: 406px;
+.logo {
+    width: 337px;
+    height: 53px;
+
+    top: -146px;
+    margin-left: 498px;
 }
+
 p {
-    color: #ffffff;
-    font-size: 35px;
+  color: #ffffff;
+  font-size: 35px;
   font-weight: bolder;
-    text-align: center;
-    padding-left: -70px;
-    margin-left: -4%;
-    margin-top: 4px;
+  text-align: center;
+  padding-left: -70px;
+  margin-left: -4%;
+  margin-top: 4px;
 }
-nav{
-    
-    position: absolute;
-    background-color: white;
-    width: 82%;
-    height: 57px;
-    left: 8%;
-    top: 84px;
+nav {
+  position: absolute;
+  background-color: white;
+  width: 89%;
+  height: 50px;
+  left: 80px;
+  top: 84px;
+  padding-top: 13px;
 }
 
-.icons{
-    display: inline;
- 
-    margin-left: 140px;
-    margin-top: 15px;
-}
 .icons-yellow {
-    color: #ffa301;
+  color: #ffa301;
+}
+.icons-yellow:hover {
+    color: black;
+  }
+
+span {
+  color: #f89f02;
+}
+.nav-item{
+    text-decoration: none;
+    color: black;
+    font-family: myMuli;
+    font-size: 14px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    
+    margin-left: 63px;
+   
+}
+.box2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 51px;
 }
 
-span{
-color:#f89f02;    
+.nav-item-icon{
+    float: right;
+    margin-right: 11px;
 }
-button{
-    border-color: white;
-    background-color: white;
-    font-family: myMuli;
-    font-size: 13px;
-    font-weight: 800;
-    letter-spacing: 2px;
-    border: none;
-    margin-left: 64px;
-    margin-top: 15px;
+a:hover{
+    color: #f89f02;
 }
-button:hover{
-    background-color: #f89f02;
-    color: #191919;
-    transition: 2s;
-    transform: rotateX(360eg);
+body {
+  background-color: whitesmoke;
 }
-body{
-    background-color: whitesmoke;
-}
-img{
+img {
     position: relative;
     width: 48%;
-    height: 379px;
-    margin: 62px;
-    margin-left: 19px;
-    margin-right: -8px;
-    margin-top: 165px;
+    height: 382px;
+    margin-left: 17px;
+    margin-right: -7px;
+    margin-top: 159px;
+}
+.fa-twitter:before {
+  content: "\f099";
+  margin-inline: 20px;
+  font-size: 20px;
 }
 
+.fa-search:before {
+  content: "\f002";
+  font-size: 20px;
+}
