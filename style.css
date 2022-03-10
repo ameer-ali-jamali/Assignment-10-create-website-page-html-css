@@ -1,8 +1,21 @@
 .box {
-  background-color: #191919;
-  position: absolute;
-  width: 99%;
-  height: 18%;
+    background-color: #191919;
+    position: absolute;
+    width: 100%;
+    height: 101px;
+    margin-left: -8px;
+}
+@font-face  {
+    font-family: "myMuli" ;
+    src: url('./fonts/Mulish-ExtraBold.ttf');
+}
+.logo{
+    position: absolute;
+    width: 358px;
+    height: 70px;
+    left: 8%;
+    top: -162px;
+    margin-left: 406px;
 }
 p {
     color: #ffffff;
@@ -18,21 +31,51 @@ nav{
     position: absolute;
     background-color: white;
     width: 82%;
-    height: 9%;
-    text-align: center;
-    top: 12%;
+    height: 57px;
     left: 8%;
-    border-style: -118px;
- 
+    top: 84px;
 }
+
+.icons{
+    display: inline;
+ 
+    margin-left: 140px;
+    margin-top: 15px;
+}
+.icons-yellow {
+    color: #ffa301;
+}
+
 span{
 color:#f89f02;    
 }
 button{
-    display: inline;
-    margin: 42px;
-    font-size: 14px;
+    border-color: white;
+    background-color: white;
+    font-family: myMuli;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    border: none;
+    margin-left: 64px;
+    margin-top: 15px;
+}
+button:hover{
+    background-color: #f89f02;
+    color: #191919;
+    transition: 2s;
+    transform: rotateX(360eg);
 }
 body{
-    background-color: #f9f9f9;
+    background-color: whitesmoke;
 }
+img{
+    position: relative;
+    width: 48%;
+    height: 379px;
+    margin: 62px;
+    margin-left: 19px;
+    margin-right: -8px;
+    margin-top: 165px;
+}
+
